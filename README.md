@@ -68,14 +68,13 @@ Logs provide insights into detected anomalies and correlated sensors.
 Project Structure
 
 📂 industrial-anomaly-detection
-├── 📄 main.py                 # Entry point for real-time monitoring
-├── 📄 anomaly_detection.py     # Anomaly detection logic
-├── 📄 correlation_analysis.py  # Sensor correlation computation
-├── 📄 report_generator.py      # Excel report generation
-├── 📄 database_handler.py      # SQLite data retrieval
-├── 📂 sensor_variations        # Stores timeline plots for sensors
-├── 📄 requirements.txt         # Required dependencies
-├── 📄 README.md                # Project documentation
+├── 📄 Testing.ipynb                 # Entry point for real-time monitoring
+├── 📄 Model_Development.ipynb       # Anomaly detection logic and ML Model Dev
+├── 📄 correlation_data              # Sensor correlation computation
+├── 📂 Data                          # SQLite data retrieval , Processed_Data , Raw Sensor Data
+├── 📂 sensor_variations             # Stores timeline plots for sensors
+├── 📄 requirements.txt              # Required dependencies
+├── 📄 README.md                     # Project documentation
 
 Troubleshooting
 
